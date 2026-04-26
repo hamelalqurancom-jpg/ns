@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SECURITY BREACH | تنبيه أمني</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="overlay-red" id="overlay"></div>
+
+    <!-- Pre-prank screen -->
+    <div id="start-screen" class="container">
+        <div class="icon">⚠️</div>
+        <h1>تنبيه حماية النظام</h1>
+        <p style="margin-bottom: 1.5rem;">تم اكتشاف محاولة وصول غير مصرح بها. يرجى التحقق من حالة الهاتف فوراً.</p>
+        <button class="btn-start" onclick="startPrank()">فحص النظام الآن</button>
+    </div>
+
+    <!-- Main Prank Container -->
+    <div id="prank-container" class="container hidden">
+        <div class="icon">☣️</div>
+        <h1 id="main-title">CRITICAL SYSTEM FAILURE</h1>
+        <div class="warning-text">تم تجميد النظام: جاري استخراج البيانات الحساسة</div>
+        <div class="status" id="status-msg">Initiating Deep-Link Protocol...</div>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="bar"></div>
+        </div>
+
+        <div class="terminal" id="terminal">
+            <span class="log-entry">> Initializing Zero-Day Exploit...</span>
+            <span class="log-entry">> Target OS: Mobile/Web-Client Identified...</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
