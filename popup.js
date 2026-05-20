@@ -4,7 +4,7 @@
  */
 
 const Popup = (() => {
-    const API_BASE = 'http://127.0.0.1:8000';
+
     let popupEl, bodyEl, ttsBtn, closeBtn;
     let currentUtterance = null;
     let fullResponseText = '';

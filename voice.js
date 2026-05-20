@@ -4,7 +4,7 @@
  */
 
 const Voice = (() => {
-    const API_BASE = 'http://127.0.0.1:8000';
+
     let overlay, modal, micIcon, statusEl, transcriptEl, cancelBtn, sendBtn, micBtn;
     let recognition = null;
     let finalTranscript = '';
